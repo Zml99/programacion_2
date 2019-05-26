@@ -3,7 +3,10 @@ package com.example.login;
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
+<<<<<<< HEAD
 import android.widget.Button;
+=======
+>>>>>>> Log-In Desing
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +24,12 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
+<<<<<<< HEAD
         assertEquals("com.example.login", appContext.getPackageName());
 
+=======
+
+        assertEquals("com.example.login", appContext.getPackageName());
+>>>>>>> Log-In Desing
     }
 }
