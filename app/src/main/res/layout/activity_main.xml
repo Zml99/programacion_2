@@ -23,7 +23,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Log-in"
+        android:text="@Log-in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -94,7 +94,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.062"
-        app:srcCompat="@mipmap/unibe_login_logo" />
+        app:srcCompat="@mipmap/unibe_login_logo"
+        android:contentDescription="@unibe_logo"/>
 
 <<<<<<< HEAD
 =======
@@ -104,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="196dp"
         android:layout_marginBottom="40dp"
-        android:text="Contraseña:"
+        android:text="@Contraseña:"
         app:layout_constraintBottom_toBottomOf="@+id/editText4"
         app:layout_constraintEnd_toEndOf="@+id/editText4" />
 
@@ -114,7 +115,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="208dp"
         android:layout_marginBottom="40dp"
-        android:text="Matrícula: "
+        android:text="@Matrícula: "
         app:layout_constraintBottom_toBottomOf="@+id/txtuser"
         app:layout_constraintEnd_toEndOf="@+id/txtuser" />
 
