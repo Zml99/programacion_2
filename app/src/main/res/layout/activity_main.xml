@@ -11,15 +11,6 @@
         android:layout_width="172dp"
         android:layout_height="53dp"
         android:layout_marginStart="8dp"
-<<<<<<< HEAD
-        android:layout_marginTop="428dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/btn_login_str"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-=======
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -30,7 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.885" />
->>>>>>> Log-In Desing
 
     <EditText
         android:id="@+id/txtuser"
@@ -38,23 +28,13 @@
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-<<<<<<< HEAD
-        android:layout_marginBottom="36dp"
-=======
         android:layout_marginBottom="60dp"
->>>>>>> Log-In Desing
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/editText4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
-<<<<<<< HEAD
-        app:layout_constraintStart_toStartOf="parent"
-        android:hint="Matricula"
-        android:backgroundTint="@color/colorPrimary"/>
-=======
         app:layout_constraintStart_toStartOf="parent" />
->>>>>>> Log-In Desing
 
     <EditText
         android:id="@+id/editText4"
@@ -67,14 +47,7 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/btnlog"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintStart_toStartOf="parent"
-        android:hint="Clave"
-        android:backgroundTint="@color/colorPrimary"/>
-
-=======
         app:layout_constraintStart_toStartOf="parent" />
->>>>>>> Log-In Desing
 
     <ImageView
         android:id="@+id/img_unibe"
@@ -84,10 +57,6 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-<<<<<<< HEAD
-        android:contentDescription="@string/img_content_string"
-=======
->>>>>>> Log-In Desing
         app:layout_constraintBottom_toTopOf="@+id/btnlog"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
@@ -97,8 +66,6 @@
         app:srcCompat="@mipmap/unibe_login_logo"
         android:contentDescription="@unibe_logo"/>
 
-<<<<<<< HEAD
-=======
     <TextView
         android:id="@+id/lbpass"
         android:layout_width="wrap_content"
@@ -119,5 +86,4 @@
         app:layout_constraintBottom_toBottomOf="@+id/txtuser"
         app:layout_constraintEnd_toEndOf="@+id/txtuser" />
 
->>>>>>> Log-In Desing
 </android.support.constraint.ConstraintLayout>
