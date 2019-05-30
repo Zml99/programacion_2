@@ -6,23 +6,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ThirdActivity extends AppCompatActivity {
 
-    private Button btn;
+    private Button btn_atras;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_third);
 
-        btn = (Button)findViewById(R.id.btnlog);
+        btn_atras = (Button)findViewById(R.id.btn_atras);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn_atras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent3 = new Intent(v.getContext(), SecondActivity.class);
-                startActivityForResult(intent3, 0);
+                Intent intent2 = new Intent(v.getContext(), SecondActivity.class);
+                startActivityForResult(intent2, 0);
             }
         });
+
     }
 }
