@@ -9,9 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
         <activity android:name=".ThirdActivity"></activity>
         <activity android:name=".SecondActivity" />
+=======
+<<<<<<< HEAD
+=======
+        <activity android:name=".SecondActivity"></activity>
+>>>>>>> origin/master
+>>>>>>> 4262e1348c3ed4d8819742068a5b30c58fb94753
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

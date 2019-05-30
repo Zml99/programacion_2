@@ -1,6 +1,5 @@
 package com.example.login;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,15 +20,14 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         lv1 = (ListView)findViewById(R.id.lv1);
-        
+
         ArrayAdapter <String> adapter = new ArrayAdapter<String>(this, R.layout.list_item_names, nombres);
         lv1.setAdapter(adapter);
 
         lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(view.getContext(), ThirdActivity.class);
-                startActivityForResult(intent, 0);
+
             }
         });
     }

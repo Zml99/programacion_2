@@ -1,5 +1,10 @@
 package com.example.login;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4262e1348c3ed4d8819742068a5b30c58fb94753
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,16 +16,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
+>>>>>>> 4262e1348c3ed4d8819742068a5b30c58fb94753
 
 public class MainActivity extends AppCompatActivity {
-
-    private Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 
 
         btn = (Button)findViewById(R.id.btnlog);
@@ -33,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4262e1348c3ed4d8819742068a5b30c58fb94753
         Button Ingresar = findViewById(R.id.btnlog);
         Ingresar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +60,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> Log-In Desing
+=======
+>>>>>>> origin/master
+>>>>>>> 4262e1348c3ed4d8819742068a5b30c58fb94753
     }
 }
