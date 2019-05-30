@@ -1,6 +1,7 @@
 package com.example.login;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +13,10 @@ import android.widget.Toast;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 >>>>>>> Log-In Desing
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> origin/master
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 <<<<<<< HEAD
         Button Ingresar = findViewById(R.id.btnlog);
         Ingresar.setOnClickListener(new View.OnClickListener() {
@@ -37,5 +43,7 @@ public class MainActivity extends AppCompatActivity {
         });
 =======
 >>>>>>> Log-In Desing
+=======
+>>>>>>> origin/master
     }
 }
