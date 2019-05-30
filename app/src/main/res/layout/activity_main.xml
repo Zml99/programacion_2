@@ -10,8 +10,20 @@
         android:id="@+id/btnlog"
         android:layout_width="172dp"
         android:layout_height="53dp"
-        android:layout_marginStart="8dp"
-<<<<<<< HEAD
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/lbpass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtuser"
+        app:layout_constraintVertical_bias="1.0" />
+<<<<<<
+
+    < android:id="@+id/"
+        HEAD
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -36,8 +48,9 @@
         android:id="@+id/txtuser"
         android:layout_width="276dp"
         android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="283dp" />
 <<<<<<< HEAD
         android:layout_marginBottom="60dp"
 =======
@@ -67,11 +80,16 @@
         android:id="@+id/img_unibe"
         android:layout_width="262dp"
         android:layout_height="165dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-<<<<<<< HEAD
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="113dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtuser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" /><<<<<<< HEAD
 =======
         android:contentDescription="@string/img_content_string"
 >>>>>>> origin/master
@@ -90,10 +108,11 @@
 
     <TextView
         android:id="@+id/lbpass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="196dp"
-<<<<<<< HEAD
+        android:layout_width="95dp"
+        android:layout_height="84dp"
+
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="560dp" /><<<<<<< HEAD
         android:layout_marginBottom="40dp"
         android:text="@Contraseña:"
 =======
@@ -105,8 +124,10 @@
 
     <TextView
         android:id="@+id/lbmat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="95dp"
+        android:layout_height="84dp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="560dp" />
 <<<<<<< HEAD
         android:layout_marginEnd="208dp"
         android:layout_marginBottom="40dp"
