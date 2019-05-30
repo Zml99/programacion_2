@@ -7,11 +7,5 @@
     <string name="img_content_string">LogoUnibe</string>
     <string name="btn_login_str">Long In</string>
     <string name="lb_estudiantes_str">Estudiantes</string>
-<<<<<<< HEAD
-    <string name="btn_maps_str">Mapa</string>
-    <string name="btn_atras_str">Atrás</string>
-    <string name="img_content_student_str">student_photo</string>
-=======
 >>>>>>> origin/master
->>>>>>> 4f09425859cf472ba5d5ddadaa940ff1250f94a3
 </resources>

@@ -10,14 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <<<<<<< HEAD
-        <activity android:name=".ThirdActivity"></activity>
-        <activity android:name=".SecondActivity" />
-=======
-<<<<<<< HEAD
 =======
         <activity android:name=".SecondActivity"></activity>
 >>>>>>> origin/master
->>>>>>> 4f09425859cf472ba5d5ddadaa940ff1250f94a3
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
