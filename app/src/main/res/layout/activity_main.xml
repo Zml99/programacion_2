@@ -24,6 +24,7 @@
         android:layout_width="276dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="36dp"
         android:ems="10"
@@ -31,20 +32,25 @@
         app:layout_constraintBottom_toTopOf="@+id/editText4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbmat"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="275dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="48dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/btnlog"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbpass"
+        android:importantForAutofill="no" />
 
     <ImageView
         android:id="@+id/img_unibe"
@@ -82,5 +88,20 @@
         android:text="@string/txt_user_str"
         app:layout_constraintBottom_toBottomOf="@+id/txtuser"
         app:layout_constraintEnd_toEndOf="@+id/txtuser" />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="160dp"
+        android:text="@string/reset"
+        android:onClick="clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlog" />
 
 </android.support.constraint.ConstraintLayout>
