@@ -29,21 +29,21 @@ public EditText editText4;
             }
         });
 
-        //Button btnlog = findViewById(R.id.btnlog);
-        //Ingresar.setOnClickListener(new View.OnClickListener() {
-          //  @Override
-            //public void onClick(View v) {
-              //  String matricula = ((EditText) findViewById(R.id.txtuser)).getText().toString();
-                //String clave = ((EditText) findViewById(R.id.editText4)).getText().toString();
-                //if (matricula.equals("17-0951") && clave.equals("prueba809")) {
+        Button btnlog = findViewById(R.id.btnlog);
+        btnlog.setOnClickListener(new View.OnClickListener() {
+          @Override
+            public void onClick(View v) {
+               String Matricula = ((EditText) findViewById(R.id.txtuser)).getText().toString();
+                String Contrasena = ((EditText) findViewById(R.id.editText4)).getText().toString();
+                if (Matricula.equals("17-0951") && Contrasena.equals("prueba809")) {
 
-                  //  Intent nuevoform = new Intent(MainActivity.this, SecondActivity.class);
-                    //startActivity(nuevoform);
-               // } else {
-               //     Toast.makeText(getApplicationContext(), "Matricula o Clave Incorrecto", Toast.LENGTH_SHORT).show();
-               // }
-           // }
-        //});
+                    Intent nuevoform = new Intent(MainActivity.this, SecondActivity.class);
+                    startActivity(nuevoform);
+                } else {
+                    Toast.makeText(getApplicationContext(), "Matricula o Contraseña Incorrecto", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
 
     }

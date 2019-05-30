@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">LogIn</string>
-    <string name="txt_user_str">Matrícula:</string>
-    <string name="lb_pass_str">Contraseña:</string>
+    <string name="txt_user_str">Matricula:</string>
+    <string name="lb_pass_str">Contrasena:</string>
     <string name="img_content_string">LogoUnibe</string>
     <string name="btn_login_str">Log In</string>
     <string name="lb_estudiantes_str">Estudiantes</string>
